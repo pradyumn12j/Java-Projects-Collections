@@ -20,7 +20,7 @@ pipeline
             sh'mvn install'
 }}
         }
-        stage("deploy to tomcat dev")
+        //stage("deploy to tomcat dev")
 
         //{
         //steps{sshagent (credentials: ['dev-deployments-v3']) {
